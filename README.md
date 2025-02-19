@@ -87,11 +87,4 @@ Edit
 
 ---
 
-### **How to Use This README?**
-1. Save this file as **`README.md`** inside your project folder.
-2. Take a **screenshot** of your app and rename it as **`screenshot.png`**.
-3. Push everything to **GitHub**:
-   ```bash
-   git add .
-   git commit -m "Added README.md"
-   git push origin main
+
