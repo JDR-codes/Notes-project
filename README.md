@@ -16,7 +16,9 @@ Built with **Python (Django), HTML, CSS**, and designed with a **black and white
 
 ## 📷 Screenshots
 ### 🏠 Homepage   
-![Screenshot 2025-02-19 224320](https://github.com/user-attachments/assets/43f7774f-19fc-4c29-befb-ba383a48e19d)
+
+![screenshot](https://github.com/user-attachments/assets/a9fa630b-8e0a-4868-a739-dc93bb1048f1)
+
 
 
 ---
