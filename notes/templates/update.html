@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+
+{% block title %}Update Note{% endblock title %}
+
+{% block content %}
+<center>
+    <h2>Update Note:</h2>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% else %}
+        {% include 'form.html' %}
+    {% endif %}
+</center>
+{% endblock content %}

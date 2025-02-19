@@ -1,0 +1,30 @@
+{% extends 'main.html' %}
+
+{% block title %}J D R - Notes{% endblock title %}
+
+{% block content %}
+
+<center>
+    {% include 'form.html' %}
+
+    {% if error %}
+        <h2 class="error">{{ error }}</h2>
+    {% endif %}
+
+    <h1>Notes:</h1>
+
+    <div class="notes-container">
+        {% for note in notes %}
+            <div class="note-card">
+                <p>{{ note.note }}</p>
+                <em>{{ note.created_at }}</em>
+                <div class="buttons">
+                    <a href="{% url 'update' note.id %}"><button class="update-btn">Update</button></a>
+                    <a href="{% url 'delete' note.id %}"><button class="delete-btn">Delete</button></a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</center>
+
+{% endblock content %}

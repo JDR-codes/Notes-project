@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* General Styling */
+body {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #ffffff;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Form Styling */
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Notes Section */
+h1 {
+    color: #000;
+}
+
+p {
+    font-size: 18px;
+    color: #000;
+}
+
+/* Notes Container */
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.note-card {
+    width: 300px;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 15px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+/* Hover Effect */
+.note-card:hover {
+    background: whitesmoke;
+}

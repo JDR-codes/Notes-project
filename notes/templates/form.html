@@ -1,0 +1,6 @@
+<form action="" method="post">
+    {% csrf_token %}
+    <label for="note">Add Note:</label>
+    <textarea name="note" id="note" required>{{ note.note }}</textarea>
+    <input type="submit" value="{{ operation }}">
+</form>
